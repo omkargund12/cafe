@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <div class="Order">
+            <h2>ORDER NOW</h2>
+            <form action="connect.php" method="post">
+                <lable>Quantity</lable>
+                <br>
+                <input type="number" name="Quantity" 
+                id="name">
+                <br><br>
+                <label>Full name :</label>
+                <br>
+                <input type="text" name="fname"
+                id="name" placeholder="Enter your name">
+                <br><br>
+                <label>Email :</label>
+                <br>
+                <input type="email" name="email" 
+                id="name" placeholder="Enter your valid email">
+                <br><br>
+                <label>Phone Number :</label>
+                <br>
+                <input type="number" name="number"
+                id="number" placeholder="Enter your phone number">
+                <br><br>
+		 <label>Menu name :</label>
+                <br>
+                <input type="text" name="Menu"
+                id="number" placeholder="Enter your selected menu name">
+                <br><br>
+                <label>Address :</label>
+                <br>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+                <br><br>
+                <input type="submit" name="submit" value="Confirm Order" id="submit">
+            
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
